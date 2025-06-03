@@ -29,7 +29,7 @@ body {
 }
 
 #btn-1:nth-child(1) {
-    border: 2px solid #3EB2E4;
+    border: 2px solid #3eb2e4;
     background-color: transparent;
     color: white;
     border-radius: 30px;
@@ -40,12 +40,12 @@ body {
 }
 
 #btn-1:nth-child(1):hover {
-    background-color: #3EB2E4;
+    background-color: #3eb2e4;
 }
 
 #btn-2 {
-    border: 2px solid #3EB2E4;
-    background-color: #3EB2E4;
+    border: 2px solid #3eb2e4;
+    background-color: #3eb2e4;
     color: white;
     border-radius: 50px;
     padding: 10px 20px;
@@ -90,7 +90,7 @@ body {
     margin-top: -150px;
 }
 /* Responsive Settings for LandPage*/
-@media screen and (max-width : 999px) {
+@media screen and (max-width: 999px) {
     .landPage .titleText h1 {
         font-size: 60px;
     }
@@ -106,7 +106,7 @@ body {
 
 /* About Page Style */
 .aboutPage {
-    background-color: #FFF6EE;
+    background-color: #fff6ee;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 100px;
@@ -150,15 +150,15 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.whyPage .gridWhyPerks .perkBox{
-    border-bottom: 3px solid #3EB2E4;
+.whyPage .gridWhyPerks .perkBox {
+    border-bottom: 3px solid #3eb2e4;
     text-align: center;
 }
-.whyPage .gridWhyPerks .perkBox img{
+.whyPage .gridWhyPerks .perkBox img {
     width: 180px;
     padding-bottom: 10px;
 }
-.whyPage .gridWhyPerks .perkBox h3{
+.whyPage .gridWhyPerks .perkBox h3 {
     font-size: 20px;
     padding-bottom: 10px;
     font-weight: bold;
@@ -170,7 +170,7 @@ body {
 }
 
 /* Why Page Responsiveness */
-@media screen and (max-width : 999px) {
+@media screen and (max-width: 999px) {
     .whyPage .gridWhyPerks {
         display: flex;
         flex-direction: column;
@@ -256,9 +256,9 @@ body {
 footer {
     text-align: center;
     color: white;
-    background-color: #1E1E1E;
+    background-color: #1e1e1e;
     padding-top: 2.5vh;
-    padding-bottom: .5vh;
+    padding-bottom: 0.5vh;
 }
 
 #myBtn {
@@ -276,7 +276,7 @@ footer {
     /* Remove borders */
     outline: none;
     /* Remove outline */
-    background-color: #3EB2E4;
+    background-color: #3eb2e4;
     /* Set a background color */
     color: white;
     /* Text color */
@@ -296,7 +296,7 @@ footer {
 }
 
 /* Themes */
-.themes{
+.themes {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -304,16 +304,16 @@ footer {
     background-image: url(../images/backgroundImage-2.png);
 }
 
-.themes h1{
+.themes h1 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
     text-transform: uppercase;
     color: #002449;
-    
+
     text-align: center;
 }
-.themes h6{
+.themes h6 {
     padding-top: 10px;
     padding-bottom: 30px;
     font-size: 24px;
@@ -323,7 +323,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 450px;
 }
 
 .themeBox {
@@ -337,8 +337,7 @@ footer {
     padding: 20px;
     border-radius: 10px; /* Optional for rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional for shadow effect */
-    height: 280px;
-
+    height: 380px;
 }
 
 .themeBox img {
@@ -358,18 +357,18 @@ footer {
     margin: 0;
     line-height: 1.5;
 }
-.marquee{
+.marquee {
     background-color: black;
     border-bottom: 2px solid white;
 }
-.marq{
+.marq {
     display: flex;
     width: 100%;
 }
-.marquee .marq img{
+.marquee .marq img {
     width: 100px;
 }
-.marquee p{
+.marquee p {
     padding-top: 15px;
     font-size: 20px;
     font-weight: bold;
