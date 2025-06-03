@@ -19,32 +19,37 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 </head>
 <style>
-.navbar-toggler {
-    border-color: white !important;
-}
+    .navbar-toggler {
+        border-color: white !important;
+    }
 
-.orgImage img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #ddd;
-}
-/* Style for the name */
-.name {
-    font-weight: 700; /* Bold but not too heavy */
-    color: darkblue; /* Set dark blue color */
-    font-family: inherit; /* Maintain the existing font style */
-}
+    .orgImage img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #ddd;
+    }
 
-/* Style for the designation */
-.designation {
-    font-weight: 400; /* Normal font weight */
-    color: inherit; /* Keep the default color (or adjust if needed) */
-    font-family: inherit; /* Maintain the existing font style */
-}
+    /* Style for the name */
+    .name {
+        font-weight: 700;
+        /* Bold but not too heavy */
+        color: darkblue;
+        /* Set dark blue color */
+        font-family: inherit;
+        /* Maintain the existing font style */
+    }
 
-
+    /* Style for the designation */
+    .designation {
+        font-weight: 400;
+        /* Normal font weight */
+        color: inherit;
+        /* Keep the default color (or adjust if needed) */
+        font-family: inherit;
+        /* Maintain the existing font style */
+    }
 </style>
 
 <body>
@@ -114,47 +119,48 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-<li><a class="dropdown-item" href="./guidelines.html">Rules & Guidelines</a></li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#"
-                                    onclick="alert('Page is currently under development. Coming soon.')">FAQs</a></li>
+                            <li><a class="dropdown-item" href="./guidelines.html">Rules & Guidelines</a></li>
+                            <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#"
+                            onclick="alert('Page is currently under development. Coming soon.')">FAQs</a></li>
 
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#"
-                                    onclick="alert('Page is currently under development. Coming soon.')">Contact Us</a></li>
-                        </ul>
+                    <li>
+                        <hr class="dropdown-divider">
                     </li>
-                    <li class="nav-item">
-                        <a href="register.html"><button id="registerNavBtn">Register Now!</button></a>
-                    </li>
+                    <li><a class="dropdown-item" href="#"
+                            onclick="alert('Page is currently under development. Coming soon.')">Contact Us</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="register.html"><button id="registerNavBtn">Register Now!</button></a>
+                </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Riverathon-initial-landing -->
-     <div class="container landPage">
-        <div class="titleText">
-            <h1>A National-Level Hackathon "Riverathon"</h1>
-            <h3>(Innovate to Revive, Restore, Rejuvenate River)</h3>
-        </div>
-        <div class="paragraphTextBtn">
-            <p>A National Mission of Clean Ganga (NMCG) – led Sustainable Development Initiative
-under
-“Namami Gange Programme”
-</p>
-            <div class="paragraphBtn">
-                <a href="#what"><button id="btn-1">About Riverathon</button></a>
-                <a href="./register.html"><button id="btn-2">Register Now</button></a>
-            </div>
-        </div>
-        <div class="arrowDwnImg">
-            <img loading="lazy" src="assets/images/arrowDown.png" alt="">
+<!-- Riverathon-initial-landing -->
+<div class="container landPage">
+    <div class="titleText">
+        <h1>A National-Level Hackathon "Riverathon"</h1>
+        <h3>(Innovate to Revive, Restore, Rejuvenate River)</h3>
+    </div>
+    <div class="paragraphTextBtn">
+        <p>A National Mission of Clean Ganga (NMCG) – led Sustainable Development Initiative
+            under
+            “Namami Gange Programme”
+        </p>
+        <div class="paragraphBtn">
+            <a href="#what"><button id="btn-1">About Riverathon</button></a>
+            <a href="./register.html"><button id="btn-2">Register Now</button></a>
         </div>
     </div>
-    <!-- announcement slider carousel -->
+    <div class="arrowDwnImg">
+        <img loading="lazy" src="assets/images/arrowDown.png" alt="">
+    </div>
+</div>
+<!-- announcement slider carousel -->
+
     <div id="carouselExampleControls" style="border-top: 2px solid white;border-bottom: 2px solid white;"
         data-bs-interval="1800" class="carousel slide" data-bs-ride="carousel" style="max-width: 100%; margin: auto;">
         <div class="carousel-inner">
@@ -242,7 +248,7 @@ under
 </div>
 
     <!-- Landing Page -->
-    <div class="container landPage">
+    <!-- <div class="container landPage">
         <div class="titleText">
             <h1>Riverathon</h1>
             <h3>Revive. Restore. Rejuvenate.</h3>
@@ -259,6 +265,69 @@ under
         </div>
         <div class="arrowDwnImg">
             <img loading="lazy" src="assets/images/arrowDown.png" alt="">
+        </div>
+    </div> -->
+    <style>
+        .divider {
+            border-left: 2px solid #ccc;
+            height: 100px;
+        }
+
+        @media (max-width: 767px) {
+            .divider {
+                display: none;
+            }
+        }
+
+        .image-col img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <div class="container py-5">
+        <!-- Row of 3 images with dividers -->
+        <div class="row text-white align-items-center justify-content-center flex-nowrap overflow-auto px-2">
+            <div class="col-auto d-flex justify-content-center align-items-center px-2">
+                <img src="assets/images/gov.png" alt="Image 1" class="img-fluid"
+                    style="max-height: 60px; width: auto;" />
+            </div>
+            <div class="col-auto d-flex justify-content-center align-items-center px-2">
+                <div class="divider" style="border-left: 2px solid #ccc; height: 40px;"></div>
+            </div>
+            <div class="col-auto d-flex justify-content-center align-items-center px-2">
+                <img src="assets/images/nmgc.jpg" alt="Image 2" class="img-fluid"
+                    style="max-height: 60px; width: auto;" />
+            </div>
+            <div class="col-auto d-flex justify-content-center align-items-center px-2">
+                <div class="divider" style="border-left: 2px solid #ccc; height: 40px;"></div>
+            </div>
+            <div class="col-auto d-flex justify-content-center align-items-center px-2">
+                <img src="assets/images/riverathon.jpeg" alt="Image 3" class="img-fluid"
+                    style="max-height: 60px; width: auto;" />
+            </div>
+        </div>
+
+
+        <!-- Some paragraph/text lines -->
+        <div class="mt-4 text-white text-center">
+            <div class="titleText">
+                <h1>A National-Level Hackathon "<strong>Riverathon</strong>"</h1>
+                <h3>(Innovate to Revive, Restore, Rejuvenate River)</h3>
+                <h4 class="text-center text-white">
+                    A National Mission of Clean Ganga (NMCG) - led Sustainable Development Initiative
+                </h4>
+                <h4 class="text-center text-white">
+                    under </h4>
+                <h3 class="text-center text-white">
+                    "Namami Gange Programme" </h3>
+                <h4 class="text-center text-white">
+                    Organized by </h4>
+            </div>
+        </div>
+
+        <!-- Final image under everything -->
+        <div class="mt-5 text-center text-white">
+            <img src="assets/images/asetLogo.png" width="200px" alt="Bottom Image" class="img-fluid">
         </div>
     </div>
     <!-- About Page -->
@@ -317,21 +386,24 @@ under
                 <div class="themeBox">
                     <img src="./assets/images/whyRiverathon/theme-5.png" alt="">
                     <h1>Vegetation Analysis</h1>
-                    <p>Analyze riparian vegetation dynamics, assess ecological health, and develop strategies for riparian zone restoration and management.</p>
+                    <p>Analyze riparian vegetation dynamics, assess ecological health, and develop strategies for
+                        riparian zone restoration and management.</p>
                 </div>
             </div>
             <div class="item">
                 <div class="themeBox">
                     <img src="./assets/images/whyRiverathon/theme-6.png" alt="">
                     <h1>River Neighborhood Infrastructure Mapping</h1>
-                    <p>Identify vulnerabilities in critical infrastructure, assess flood risks, and develop strategies.</p>
+                    <p>Identify vulnerabilities in critical infrastructure, assess flood risks, and develop strategies.
+                    </p>
                 </div>
             </div>
             <div class="item">
                 <div class="themeBox">
                     <img src="./assets/images/whyRiverathon/theme-7.png" alt="">
                     <h1>Digital Twin for Urban-River Interaction</h1>
-                    <p>Create virtual representations of urban-river systems to improve understanding and management.</p>
+                    <p>Create virtual representations of urban-river systems to improve understanding and management.
+                    </p>
                 </div>
             </div>
             <div class="item">
@@ -387,7 +459,8 @@ under
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Chairman</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d;" class="subtitle mb-3">Sh. Nalin Srivastava,<br>Deputy Director General, NMCG</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d;" class="subtitle mb-3">Sh. Nalin
+                                        Srivastava,<br>Deputy Director General, NMCG</h6>
                                 </div>
 
 
@@ -404,14 +477,14 @@ under
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12 orgImage">
-                                <img loading="lazy"
-                                    src="https://pbs.twimg.com/media/FkEzzCnVQAAhLfE.jpg:large"
+                                <img loading="lazy" src="https://pbs.twimg.com/media/FkEzzCnVQAAhLfE.jpg:large"
                                     alt="wrapkit" class="img-fluid rounded-circle" />
                             </div>
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Sh. Dheeraj Joshi,<br> Director,<br> NMCG</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Sh. Dheeraj Joshi,<br> Director,<br> NMCG</h6>
                                 </div>
 
                             </div>
@@ -425,14 +498,15 @@ under
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12 orgImage">
-                                <img loading="lazy"
-                                src="assets/images/organising-committee/neeraj.jpeg"
-                                alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img loading="lazy" src="assets/images/organising-committee/neeraj.jpeg" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Sh. Neeraj Gurjar,<br>Director,<br>Geodetic & Research Branch, Survey of India</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Sh. Neeraj Gurjar,<br>Director,<br>Geodetic & Research
+                                        Branch, Survey of India</h6>
                                 </div>
 
                             </div>
@@ -443,16 +517,14 @@ under
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12 orgImage">
-                                <img loading="lazy"
-                                    src="assets/images/organising-committee/mathuria.jpg"
-                                    alt="wrapkit" class="img-fluid rounded-circle"
-
-                                    />
+                                <img loading="lazy" src="assets/images/organising-committee/mathuria.jpg" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d;" class="subtitle mb-3">Sh. D. P. Mathuria,<br> Chief Engineer,<br> P&DO, Central Water Commission</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d;" class="subtitle mb-3">Sh. D. P.
+                                        Mathuria,<br> Chief Engineer,<br> P&DO, Central Water Commission</h6>
                                 </div>
 
                             </div>
@@ -467,14 +539,15 @@ under
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12 orgImage">
-                                <img loading="lazy"
-                                    src="https://home.iitk.ac.in/~rsinha/img/R_Sinha.jpeg"
-                                    alt="wrapkit" class="img-fluid rounded-circle" />
+                                <img loading="lazy" src="https://home.iitk.ac.in/~rsinha/img/R_Sinha.jpeg" alt="wrapkit"
+                                    class="img-fluid rounded-circle" />
                             </div>
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Prof. Rajiv Sinha,<br>Professor,<br> Department of Earth Sciences, IIT Kanpur</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Prof. Rajiv Sinha,<br>Professor,<br> Department of Earth
+                                        Sciences, IIT Kanpur</h6>
                                 </div>
 
                             </div>
@@ -486,14 +559,15 @@ under
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12 orgImage">
-                                <img loading="lazy"
-                                    src="https://www.iirs.gov.in/iirs/sites/default/files/vabhav.jpg"
+                                <img loading="lazy" src="https://www.iirs.gov.in/iirs/sites/default/files/vabhav.jpg"
                                     alt="wrapkit" class="img-fluid rounded-circle" />
                             </div>
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Dr. Vaibhav Garg,<br>Scientist F,<br> Water Resource Department, Indian Institute of Remote Sensing/ISRO, Dehradun</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Dr. Vaibhav Garg,<br>Scientist F,<br> Water Resource
+                                        Department, Indian Institute of Remote Sensing/ISRO, Dehradun</h6>
                                 </div>
 
                             </div>
@@ -513,7 +587,9 @@ under
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Prof. Anurag Ohri,<br>Professor,<br>Department of Civil Engineering, IIT (BHU)</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Prof. Anurag Ohri,<br>Professor,<br>Department of Civil
+                                        Engineering, IIT (BHU)</h6>
                                 </div>
 
                             </div>
@@ -533,7 +609,9 @@ under
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Assoc. Prof. Manabendra Saharia,<br>Associate Professor,<br>Department of Civil Engineering, IIT Delhi</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Assoc. Prof. Manabendra Saharia,<br>Associate
+                                        Professor,<br>Department of Civil Engineering, IIT Delhi</h6>
                                 </div>
 
                             </div>
@@ -546,14 +624,16 @@ under
                         <!-- Row -->
                         <div class="row">
                             <div class="col-md-12 orgImage">
-                                <img loading="lazy"
-                                    src="https://jnu.irins.org/assets/profile_images/56643.jpg"
+                                <img loading="lazy" src="https://jnu.irins.org/assets/profile_images/56643.jpg"
                                     alt="wrapkit" class="img-fluid rounded-circle" />
                             </div>
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Prof. Saumitra Mukherjee,<br>Retd. Professor,<br> School of Environmental Sciences, JNU / Director, New Environment and Energy Research (NEER)</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Prof. Saumitra Mukherjee,<br>Retd. Professor,<br> School
+                                        of Environmental Sciences, JNU / Director, New Environment and Energy Research
+                                        (NEER)</h6>
                                 </div>
 
                             </div>
@@ -570,8 +650,10 @@ under
                             </div>
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
-                                    <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member Secretary</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Sh. Peeyush Gupta,<br>RTIS,<r> NMCG</h6>
+                                    <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member
+                                        Secretary</h5>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Sh. Peeyush Gupta,<br>RTIS,<r> NMCG</h6>
                                 </div>
 
                             </div>
@@ -603,7 +685,9 @@ under
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Prof. Manoj Kr. Pandey,<br>Director,<br> Amity School of Engineering and Technology, Noida</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Prof. Manoj Kr. Pandey,<br>Director,<br> Amity School of
+                                        Engineering and Technology, Noida</h6>
                                 </div>
 
                             </div>
@@ -621,7 +705,9 @@ under
                             <div class="col-md-12 text-center">
                                 <div class="pt-2">
                                     <h5 style="font-weight: 900; color: rgb(0, 36, 73);" class="mt-4 mb-0">Member</h5>
-                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;" class="subtitle mb-3">Prof. Madhuri Kumari,<br>Professor,<br> Department of Civil Engineering, Amity School of Engineering and Technology, Noida</h6>
+                                    <h6 style="font-weight: 400; color: #6c757d; font-size: 0.9rem;"
+                                        class="subtitle mb-3">Prof. Madhuri Kumari,<br>Professor,<br> Department of
+                                        Civil Engineering, Amity School of Engineering and Technology, Noida</h6>
                                 </div>
 
                             </div>
